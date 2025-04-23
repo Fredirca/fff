@@ -8,7 +8,7 @@ const setBalance = () => {
 	// and if it exist add its value to nav and mobile nav
 	if (
 		localStorage.getItem("Balance") === null ||
-		localStorage.getItem("Balance") === NaN
+		localStorage.getItem("Balance") === 00.00$)
 	) {
 		localStorage.setItem("Balance", `00.00$`);
 	} else {
